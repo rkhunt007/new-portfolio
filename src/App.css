@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Override default class */
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* navbar */
+.navbar-brand,
+.navbar-nav li {
+    font-weight: 800;
+}
+
+/* Showcase */
+
+.showcase-container {
+    height: calc(100vh - 56px);
+    margin-top: 56px;
+}
+
+.showcase-image {
+    max-width: 450px;
+    max-height: 450px;
+    margin: auto;
+}
+
+/* skills  */
+
+.skills {
+    background-color: #151515;
+    color: #fff
+}
+
+.skills .item {
+    text-align: center;
+}
+
+.skills .item img {
+    height: 70px;
+    width: 70px
+}
+
+
 .App {
   text-align: center;
 }
