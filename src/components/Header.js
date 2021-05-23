@@ -14,16 +14,16 @@ class Header extends React.Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#0">About</a>
+                                <Link to="showcase" className="nav-link" href="">About</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="skills" className="nav-link" href="">Skills</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Experience</a>
+                                <Link to="experience" className="nav-link" href="">Experience</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#0">Contact</a>
+                                <Link to="contact" className="nav-link" href="">Contact</Link>
                             </li>
                         </ul>
                     </div>

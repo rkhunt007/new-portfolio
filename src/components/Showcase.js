@@ -13,6 +13,10 @@ class Showcase extends React.Component {
                         <p className="h4 mb-0 text-muted">I'm a <span className="fw-bold">full stack</span> developer</p>
                         <br />
                         <p className="h4 text-muted">I specialize in developing and deploying responsive websites and web applications</p>
+                        <p>
+                            I started out the journey of web development with javascript when I joined eInfochips. I always loved, and enjoyed using javascript despite its mysterious and baffling behaviours.
+                            I have been involved in creating interactive UI and features implementation for large scale applications. I seek out new technologies constantly, and always push myself to learn more.
+                        </p>
                     </div>
                     <div className="col">
                         <div className="showcase-image">

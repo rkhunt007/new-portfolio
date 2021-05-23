@@ -47,6 +47,29 @@ body {
     width: 70px
 }
 
+/* Experience */
+
+.exp-image-container {
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 414px) {
+    .exp-image {
+        width: 75%;
+    }
+}
+
+/* contact  */
+
+.contact {
+    background-color: #151515;
+    color: #fff
+}
+
+.contact a {
+    text-decoration: none;
+}
+
 
 .App {
   text-align: center;

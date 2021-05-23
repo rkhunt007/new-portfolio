@@ -11,7 +11,7 @@ class Skills extends React.Component {
                 <div className="container px-4">
                     <p className="h3 fw-bold mb-3">Skills</p>
                     
-                    <p className="h5 fw-bold mb-2">Languages & Frameworks</p>
+                    <p className="h5 mb-2">Languages & Frameworks</p>
                     <div className="d-flex flex-wrap">
                         <div className="item m-3">
                             <div className="img-container"><img src="https://img.icons8.com/color/144/000000/javascript.png" alt="Javascript Logo"></img></div>
@@ -67,7 +67,7 @@ class Skills extends React.Component {
 
                     <br />
 
-                    <p className="h5 fw-bold mb-2">Tools & Services</p>
+                    <p className="h5 mb-2">Tools & Services</p>
                     <div className="d-flex flex-wrap">
 
                         <div className="item m-3">
@@ -98,6 +98,7 @@ class Skills extends React.Component {
                     </div>
 
                 </div>
+                <br />
             </div>
         );
     }
